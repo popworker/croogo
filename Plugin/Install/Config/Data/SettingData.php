@@ -249,7 +249,7 @@ class SettingData {
 		array(
 			'id' => '32',
 			'key' => 'Hook.bootstraps',
-			'value' => 'Acl,Tinymce',
+			'value' => 'Tinymce',
 			'title' => '',
 			'description' => '',
 			'input_type' => '',
