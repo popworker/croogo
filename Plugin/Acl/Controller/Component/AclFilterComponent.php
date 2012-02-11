@@ -43,10 +43,11 @@ class AclFilterComponent extends Component {
             'Form',
             );
         $actionPath = 'controllers';
-        $this->controller->Auth->authorize = array(
-            AuthComponent::ALL => array('actionPath' => $actionPath),
-            'Actions',
-            );
+	    $this->controller->Auth->authorize = array(
+	             'Actions' => array(
+	             'actionPath' => $actionPath
+	         )
+	    );
         $this->controller->Auth->loginAction = array(
             'plugin' => null,
             'controller' => 'users',
