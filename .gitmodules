@@ -1,3 +1,6 @@
 [submodule "locale"]
 	path = locale
 	url = git://github.com/croogo/locale.git
+[submodule "Plugin/Cforms"]
+	path = Plugin/Cforms
+	url = /Users/daniel/Documents/webProjects/croogo/app/Plugin/Cforms
